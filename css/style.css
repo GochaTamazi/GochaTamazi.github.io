@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: transparent;
+    color: #555555;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #151A1E;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#home, #top-menu {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#home {
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-right: 170px;
+}
+
+#home > a {
+    text-decoration: none
+}
+
+#home > a > img {
+    height: 15px;
+    margin-top: -5px;
+}
+
+#top-menu {
+    font-size: 12px;
+    color: transparent;
+    padding: 20px 0px;
+}
+
+#top-menu > nav > a {
+    margin: 0px 15px;
+}
+
+#home > a, #top-menu > nav > a, #bot-menu > nav > a {
+    color: #FCFEFE;
+}
+
+#service-section, #testimonial-section {
+    background-color: #F6F6F6;
+}
+
+.green-color {
+    color: #7EFEBC !important;
+}
+
+.green-background {
+    background: #7EFEBC !important;
+}
+
+#main-img > img {
+    width: 100%;
+}
+
+article {
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#about-restart {
+    margin-top: 65px;
+}
+
+#about-restart > div {
+    margin-top: 35px;
+    display: inline-block;
+    width: 660px;
+    font-size: 15px;
+    color: #747474;
+}
+
+#service-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#service-section > div {
+    display: inline-block;
+    text-align: center;
+}
+
+#service-section > div {
+    padding: 65px 0px;
+}
+
+#service-section > div > figure {
+    background: white;
+    padding: 10px;
+    display: inline-block;
+    width: 240px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    float: left;
+}
+
+#service-section > div > figure > p > img {
+    height: 40px;
+}
+
+#service-section > div > figure > figcaption {
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+#service-section > div > figure {
+    font-size: 14px;
+    color: #747474;
+}
+
+#portfolio {
+    margin-top: 65px;
+}
+
+#portfolio-head {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #747474;
+    width: 600px;
+    display: inline-block;
+}
+
+#portfolio-img {
+    margin-top: 45px;
+    width: 769px;
+    display: inline-block;
+    height: 580px;
+}
+
+#portfolio-img > a {
+    float: left;
+    margin: 3px;
+}
+
+#portfolio-img > a > img {
+    width: 250px;
+    float: left;
+}
+
+#portfolio-img-a-4 {
+    margin-top: -385px !important;
+}
+
+#portfolio-img-a-5 {
+    margin-top: -180px !important;
+    margin-left: 259px !important;
+}
+
+#portfolio-btn {
+    margin-top: 65px;
+
+}
+
+#portfolio-btn > a {
+    padding: 12px 48px;
+    color: #272120;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#testimonial-section {
+    margin-top: 100px;
+}
+
+#testimonial-section > div > div {
+    margin-top: 25px;
+    color: #888888;
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    width: 800px;
+}
+
+#ben-graham {
+    margin-top: 50px;
+}
+
+#ben-graham > div > div {
+    color: #888888;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#circles {
+    margin-top: 25px;
+}
+
+#circles > div {
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0px 6px;
+    padding: 0px;
+    width: 17px;
+    height: 17px;
+    background: #CCCCCC;
+    color: transparent;
+}
+
+.circles-active {
+    background: #949494 !important;
+}
+
+#pre-footer {
+    background-color: #151A1E;
+    color: #FCFEFE;
+    margin-top: 75px;
+    padding: 75px 0px;
+}
+
+#social > a {
+    margin: 0px 5px;
+}
+
+#get-in {
+    margin-top: 25px;
+}
+
+#pre-footer-line {
+    border-bottom: 5px solid #7EFEBC;
+    display: inline-block;
+    width: 100px;
+}
+
+#bot-menu {
+    margin-top: 40px;
+}
+
+#bot-menu > nav > a {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+footer {
+    margin: 40px;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
