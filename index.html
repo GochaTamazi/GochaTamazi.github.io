@@ -5,42 +5,36 @@
         <title>
             RESTART
         </title>
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-              crossorigin="anonymous">
-
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <header>
-
-            <div id="home">
-                <a href="#">
-                    RESTART
-                    <img src="img/header-arrow.png"/>
-                </a>
-            </div>
-
-            <div id="top-menu">
-                <nav>
-                    <a href="#">ABOUT</a> |
-                    <a href="#">SERVICE</a> |
-                    <a href="#" class="green-color">PORTFOLIO</a> |
-                    <a href="#">TESTIMONIAL</a> |
-                    <a href="#">CONTACT</a>
-                </nav>
-            </div>
-
-        </header>
-
-        <article>
-            <div id="main-content">
-
-                <div id="main-img">
-                    <img src="img/main-img.png" alt=""/>
+        <div id="header">
+            <div class="content-wraper">
+                <div id="home">
+                    <a href="#">
+                        RESTART
+                        <img src="img/header-arrow.png"/>
+                    </a>
                 </div>
+                <div id="top-menu">
+                    <div class="nav">
+                        <a href="#">ABOUT</a> |
+                        <a href="#">SERVICE</a> |
+                        <a href="#" class="green-color">PORTFOLIO</a> |
+                        <a href="#">TESTIMONIAL</a> |
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main-content">
 
+            <div id="main-img">
+                <img src="img/main-img.png"/>
+            </div>
+
+            <div class="content-wraper">
                 <div id="about-restart">
                     <h3>
                         ABOUT RESTART
@@ -52,10 +46,15 @@
                         your personal starting point in learning how to code the web.
                     </div>
                 </div>
+            </div>
 
-                <div id="service-section">
+
+            <div id="service-section">
+                <div class="content-wraper">
+
+
                     <div>
-                        <figure>
+                        <div class="figure">
                             <p>
                                 <img src="img/service-section-1.png">
                             </p>
@@ -63,27 +62,27 @@
                             Aliquam eu nunc. Cras id dui. Sed consequat, leo eget bibendum sodales, augue velit cursus
                             nunc,
                             quis gravida magna mi a libero.
-                        </figure>
+                        </div>
 
-                        <figure>
+                        <div class="figure">
                             <p>
                                 <img src="img/service-section-2.png">
                             </p>
                             <figcaption>FIND DESTINATION</figcaption>
                             Aenean viverra rhoncus pede. Praesent egestas neque eu enim. Suspendisse nisl elit, rhoncus
                             eget, elementum ac.
-                        </figure>
+                        </div>
 
-                        <figure>
+                        <div class="figure">
                             <p>
                                 <img src="img/service-section-3.png">
                             </p>
                             <figcaption>MAP PLACES</figcaption>
                             Cras non dolor. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id
                             egestas quam mauris ut lacus.
-                        </figure>
+                        </div>
 
-                        <figure>
+                        <div class="figure">
                             <p>
                                 <img src="img/service-section-4.png">
                             </p>
@@ -91,11 +90,14 @@
                             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Vestibulum volutpat
                             pretium
                             libero. Curabitur suscipit tellus.
-                        </figure>
+                        </div>
                     </div>
-                </div>
 
-                <div id="portfolio">
+                </div>
+            </div>
+
+            <div id="portfolio">
+                <div class="content-wraper">
                     <h3>
                         OUR PORTFOLIO
                     </h3>
@@ -138,76 +140,81 @@
                             SEE MORE
                         </a>
                     </div>
-
                 </div>
+            </div>
 
-                <div id="testimonial-section">
+            <div id="testimonial-section">
+                <div class="content-wraper">
+
                     <div>
                         <h3>TESTIMONIALS</h3>
 
-                        <div id="">Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
+                        <div>Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
                             faucibus orci
                             luctus et ultrices posuere cubilia Curae; Fusce id purus.
                         </div>
                     </div>
-                </div>
 
-                <div id="ben-graham">
-                    <div>
+                    <div id="ben-graham">
                         <h4>BEN GRAHAM</h4>
 
                         <div>~ Traveler and Blogger</div>
+
+                        <div id="circles">
+                            <div></div>
+                            <div class="circles-active"></div>
+                            <div></div>
+                        </div>
                     </div>
 
-                    <div id="circles">
-                        <div></div>
-                        <div class="circles-active"></div>
-                        <div></div>
-                    </div>
                 </div>
-
             </div>
+
 
             <div id="pre-footer">
-                <div id="social">
-                    <a href="#">
-                        <img src="img/social-icons-1.png">
-                    </a>
+                <div class="content-wraper">
+                    <div id="social">
+                        <a href="#">
+                            <img src="img/social-icons-1.png">
+                        </a>
 
-                    <a href="#">
-                        <img src="img/social-icons-2.png">
-                    </a>
+                        <a href="#">
+                            <img src="img/social-icons-2.png">
+                        </a>
 
-                    <a href="#">
-                        <img src="img/social-icons-3.png">
-                    </a>
+                        <a href="#">
+                            <img src="img/social-icons-3.png">
+                        </a>
 
-                    <a href="#">
-                        <img src="img/social-icons-4.png">
-                    </a>
+                        <a href="#">
+                            <img src="img/social-icons-4.png">
+                        </a>
+                    </div>
+
+                    <h1 id="get-in">GET IN TOUCH WITH US.</h1>
+
+                    <div id="pre-footer-line">
+                    </div>
+
+                    <div id="bot-menu">
+                        <div class="nav">
+                            <a href="#">ABOUT</a> |
+                            <a href="#">SERVICE</a> |
+                            <a href="#">PORTFOLIO</a> |
+                            <a href="#">TESTIMONIAL</a> |
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </div>
+
                 </div>
-
-                <h1 id="get-in">GET IN TOUCH WITH US.</h1>
-
-                <div id="pre-footer-line">
-                </div>
-
-                <div id="bot-menu">
-                    <nav>
-                        <a href="#">ABOUT</a> |
-                        <a href="#">SERVICE</a> |
-                        <a href="#">PORTFOLIO</a> |
-                        <a href="#">TESTIMONIAL</a> |
-                        <a href="#">CONTACT</a>
-                    </nav>
-                </div>
-
             </div>
 
-        </article>
+        </div>
 
-        <footer>
-            RESTART / Copyright © 2016 ADCADESIGNS.CO.NF, All Rights Reserved
-        </footer>
+        <div id="footer">
+            <div class="content-wraper">
+                RESTART / Copyright © 2016 ADCADESIGNS.CO.NF, All Rights Reserved
+            </div>
+        </div>
     </body>
 </html>

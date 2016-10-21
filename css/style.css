@@ -1,3 +1,13 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/Proxima%20Nova%20Regular.otf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,9 +16,14 @@
 body {
     background-color: transparent;
     color: #555555;
+    font-family: 'Open Sans', sans-serif;
 }
 
-header {
+a {
+    text-decoration: none
+}
+
+#header {
     background-color: rgba(0, 0, 0, 0.8);
     color: #151A1E;
     position: fixed;
@@ -16,20 +31,28 @@ header {
     text-align: center;
 }
 
-#home, #top-menu {
-    display: inline-block;
-    font-weight: bold;
+.main-content {
+    text-align: center;
+}
+
+.content-wraper {
+    width: 960px;
+    margin: auto;
+    text-align: center;
 }
 
 #home {
     font-size: 20px;
     position: relative;
     top: 4px;
-    margin-right: 170px;
+    font-weight: bold;
+    margin-right: 150px;
+    display: inline-block;
 }
 
 #home > a {
-    text-decoration: none
+    text-decoration: none;
+    font-family: "ProximaNova";
 }
 
 #home > a > img {
@@ -38,16 +61,18 @@ header {
 }
 
 #top-menu {
-    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
     color: transparent;
     padding: 20px 0px;
 }
 
-#top-menu > nav > a {
+#top-menu > .nav > a {
     margin: 0px 15px;
 }
 
-#home > a, #top-menu > nav > a, #bot-menu > nav > a {
+#home > a, #top-menu > .nav > a, #bot-menu > .nav > a {
     color: #FCFEFE;
 }
 
@@ -67,10 +92,6 @@ header {
     width: 100%;
 }
 
-article {
-    text-align: center;
-}
-
 h3 {
     font-weight: bold;
 }
@@ -86,7 +107,6 @@ h4 {
 #about-restart > div {
     margin-top: 35px;
     display: inline-block;
-    width: 660px;
     font-size: 15px;
     color: #747474;
 }
@@ -96,35 +116,34 @@ h4 {
     text-align: center;
 }
 
-#service-section > div {
+#service-section > div > div {
     display: inline-block;
     text-align: center;
 }
 
-#service-section > div {
+#service-section > div > div {
     padding: 65px 0px;
 }
 
-#service-section > div > figure {
-    background: white;
+.figure {
     padding: 10px;
     display: inline-block;
-    width: 240px;
+    width: 200px;
     margin: 0 10px 10px 0;
     text-align: center;
     float: left;
 }
 
-#service-section > div > figure > p > img {
+.figure > p > img {
     height: 40px;
 }
 
-#service-section > div > figure > figcaption {
+.figure > figcaption {
     font-weight: bold;
     margin: 15px 0px;
 }
 
-#service-section > div > figure {
+.figure {
     font-size: 14px;
     color: #747474;
 }
@@ -137,7 +156,6 @@ h4 {
     margin-top: 25px;
     font-size: 14px;
     color: #747474;
-    width: 600px;
     display: inline-block;
 }
 
@@ -178,29 +196,36 @@ h4 {
     font-weight: bold;
     text-decoration: none;
     font-size: 12px;
+    font-family: "MyriadPro";
 }
 
 #testimonial-section {
     margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#testimonial-section > div > div {
+#testimonial-section > div > div > div {
     margin-top: 25px;
     color: #888888;
     font-size: 20px;
     font-style: italic;
     display: inline-block;
-    width: 800px;
 }
 
 #ben-graham {
     margin-top: 50px;
+
 }
 
-#ben-graham > div > div {
-    color: #888888;
-    font-style: italic;
-    font-size: 15px;
+#ben-graham > div {
+    color: #888888 !important;
+    font-size: 15px !important;
+    display: block !important;
+}
+
+#circles {
+
 }
 
 #circles {
@@ -225,7 +250,6 @@ h4 {
 #pre-footer {
     background-color: #151A1E;
     color: #FCFEFE;
-    margin-top: 75px;
     padding: 75px 0px;
 }
 
@@ -247,14 +271,18 @@ h4 {
     margin-top: 40px;
 }
 
-#bot-menu > nav > a {
+#bot-menu > .nav > a {
     margin: 0px 10px;
     font-size: 15px;
 }
 
-footer {
+#footer {
     margin: 40px;
     font-size: 12px;
     color: #505050;
     font-weight: bold;
+}
+
+#footer > div {
+    text-align: left;
 }
