@@ -7,10 +7,37 @@
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css"/>
+
+        <script>
+            $(document).ready(function () {
+                $("#owl-demo").owlCarousel({
+                    navigation: false, // Show next and prev buttons
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    singleItem: true
+                    // "singleItem:true" is a shortcut for:
+                    // items : 1,
+                    // itemsDesktop : false,
+                    // itemsDesktopSmall : false,
+                    // itemsTablet: false,
+                    // itemsMobile : false
+
+                });
+            });
+        </script>
+
     </head>
     <body>
         <div id="header">
-            <div class="content-wraper">
+            <div class="content-wraper clearfix">
                 <div id="home">
                     <a href="#">
                         RESTART
@@ -19,10 +46,10 @@
                 </div>
                 <div id="top-menu">
                     <div class="nav">
-                        <a href="#">ABOUT</a> |
-                        <a href="#">SERVICE</a> |
-                        <a href="#" class="green-color">PORTFOLIO</a> |
-                        <a href="#">TESTIMONIAL</a> |
+                        <a href="#">ABOUT</a>
+                        <a href="#">SERVICE</a>
+                        <a href="#" class="green-color">PORTFOLIO</a>
+                        <a href="#">TESTIMONIAL</a>
                         <a href="#">CONTACT</a>
                     </div>
                 </div>
@@ -143,29 +170,69 @@
                 </div>
             </div>
 
+
             <div id="testimonial-section">
                 <div class="content-wraper">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
 
-                    <div>
-                        <h3>TESTIMONIALS</h3>
+                        <div class="item">
+                            <div class="content-wraper">
 
-                        <div>Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
-                            faucibus orci
-                            luctus et ultrices posuere cubilia Curae; Fusce id purus.
+                                <div class="TESTIMONIALS">
+                                    <h3>TESTIMONIALS</h3>
+
+                                    <div>Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
+                                        faucibus orci
+                                        luctus et ultrices posuere cubilia Curae; Fusce id purus.
+                                    </div>
+                                </div>
+                                <div class="ben-graham">
+                                    <h4>BEN GRAHAM</h4>
+                                    <div>~ Traveler and Blogger</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="content-wraper">
+
+                                <div class="TESTIMONIALS">
+                                    <h3>TESTIMONIALS</h3>
+
+                                    <div>Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
+                                        faucibus orci
+                                        luctus et ultrices posuere cubilia Curae; Fusce id purus.
+                                    </div>
+                                </div>
+                                <div class="ben-graham">
+                                    <h4>BEN GRAHAM</h4>
+                                    <div>~ Traveler and Blogger</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="content-wraper">
+
+                                <div class="TESTIMONIALS">
+                                    <h3>TESTIMONIALS</h3>
+
+                                    <div>Nullam sagittis. Etiam iaculis nunc ac metus. Vestibulum ante ipsum primis in
+                                        faucibus orci
+                                        luctus et ultrices posuere cubilia Curae; Fusce id purus.
+                                    </div>
+                                </div>
+                                <div class="ben-graham">
+                                    <h4>BEN GRAHAM</h4>
+                                    <div>~ Traveler and Blogger</div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
-                    <div id="ben-graham">
-                        <h4>BEN GRAHAM</h4>
-
-                        <div>~ Traveler and Blogger</div>
-
-                        <div id="circles">
-                            <div></div>
-                            <div class="circles-active"></div>
-                            <div></div>
-                        </div>
-                    </div>
 
                 </div>
             </div>
