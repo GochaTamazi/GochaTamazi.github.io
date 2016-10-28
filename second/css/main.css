@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+}
+
+body {
+}
+
+/****************************** <Header> ******************************/
+.header {
+    background-color: #5bbc2e;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 71px;
+    display: table;
+}
+
+.header__logo {
+    border: 1px solid blue;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header__logo__wraper {
+    display: inline-block;
+    width: 135px;
+    border: 1px solid pink;
+    vertical-align: middle;
+}
+
+.header__logo__wraper__img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    float: left;
+    border: 1px solid green;
+}
+
+.header__logo__wraper__Joby {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid aqua;
+}
+
+.header__logo__wraper__Job-Finder {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid chocolate;
+}
+
+.header__nav {
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid red;
+}
+
+.header__nav__ul {
+    /*display: inline-block;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav__ul__li {
+    display: inline-block;
+}
+
+.header__nav__ul__li__a {
+    font-size: 13px;
+    /*font-family: "Raleway";*/
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__nav__ul__li__a--active {
+}
+
+/****************************** </Header> ******************************/
+
+.section {
+}
+
+.section__parallax {
+}
+
+.section__parallax__title {
+}
+
+.section__parallax__title--green-color {
+}
+
+.section__parallax__under-title {
+}
+
+.section__parallax__get-sarted {
+}
+
+.footer {
+}
