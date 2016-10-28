@@ -37,7 +37,7 @@ a {
 }
 
 .content-wraper {
-    width: 960px;
+    max-width: 960px;
     margin: auto;
     text-align: center;
 }
