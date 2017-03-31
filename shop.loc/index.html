@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en' ng-app='myApp'>
+    <head>
+        <meta charset='UTF-8'/>
+        <link rel='stylesheet' type='text/css' href='./css/bootstrap.min.css'/>
+        <script src='./js/jquery-3.2.0.min.js'></script>
+
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js'></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-route.min.js'></script>
+
+        <script src='./js/index.js'></script>
+
+        <title>hello</title>
+    </head>
+    <body ng-controller='myController'>
+        <header>
+            <nav class='navbar navbar-default'>
+                <div class='container-fluid'>
+                    <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-2'>
+                        <ul class='nav navbar-nav'>
+                            <li><a href='#/'>Home</a></li>
+
+                            <li class='active'><a href='#'>Link <span class='sr-only'>(current)</span></a></li>
+                            <li><a href='#'>Link</a></li>
+
+                        </ul>
+                        <ul class='nav navbar-nav navbar-right'>
+
+                            <li><a href='#/orders'>Cart <span class='badge'>3</span></a></li>
+                            <li><a href='#/profile'>Profile</a></li>
+                            <li><a href='#/logout'>Logout</a></li>
+
+                            <li><a href='#/login'>Login</a></li>
+                            <li><a href='#/registration'>Registration</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <article class='main-contetn' ng-view=''>
+        </article>
+
+        <footer></footer>
+    </body>
+</html>

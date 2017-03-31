@@ -1,0 +1,88 @@
+<div class='wraper-home'>
+
+
+    <h1>Products catalog:</h1>
+
+    <div class='search-form-close search-form-close-hiden'></div>
+    <div class='search-form-open-btn'>S e a r c h</div>
+    <div class='search-form-wraper search-form-wraper-hiden'>
+        <form class='search-form form-horizontal' action='' method='get'>
+            <h4>Search form</h4>
+            <input type='text' name='Category' id='Category' placeholder='Category' class='search-input form-control input-sm'/>
+            <input type='text' name='Title' id='Title' placeholder='Title' class='search-input form-control input-sm'/>
+            <input type='text' name='Price' id='Price' placeholder='Price' class='search-input form-control input-sm'/>
+            <input type='text' name='Brand' id='Brand' placeholder='Brand' class='search-input form-control input-sm'/>
+            <input type='text' name='Colour' id='Colour' placeholder='Colour' class='search-input form-control input-sm'/>
+            <label class='search-form-lable'>Order by:</label>
+            <div class='search-form-selecnt-wraper'>
+                <select class='form-control input-sm search-form-selecnt' id='Orderby' name='Orderby'>
+                    <option>Category</option>
+                    <option>Title</option>
+                    <option>Price</option>
+                    <option>Brand</option>
+                    <option>Colour</option>
+                </select>
+            </div>
+            <div class='search-form-btn-wraper'>
+                <input type='submit' value='search' class='btn btn-default btn-sm search-form-btn search-form-btn-ok'/>
+            </div>
+        </form>
+        <link rel='stylesheet' type='text/css' href='./pages/home/search-form.css'/>
+        <script src='./pages/home/search-form.js'></script>
+    </div>
+
+
+    <div class='products'>
+        <div class='product' ng-repeat='p in products'>
+            <div class='product-wraper-img'>
+                <img class='product-img' src='{{p.img}}'/>
+            </div>
+            <div class='product-title'>
+                {{p.title}}
+            </div>
+            <div class='product-description'>
+                {{p.description}}
+            </div>
+            <div class='product-price'>
+                {{p.price}}
+            </div>
+            <div class='product-quantity'>
+                <input class='spinner quantity-s' value='1' min='1' max='1000' pattern='^[ 0-9]+$'/>
+            </div>
+            <div class='product-btn'>
+                <div data='{{p.id}}' class='product-btn-add btn btn-primary btn-sm'>Add to Cart</div>
+                <div class='product-btn-detail btn btn-default btn-sm'>Product Detail</div>
+            </div>
+        </div>
+    </div>
+
+
+    <ul class='pagination'>
+        <li class='disabled'>
+            <a href='#'>&laquo;</a>
+        </li>
+        <li class='active'>
+            <a href='#'>1</a>
+        </li>
+        <li>
+            <a href='#'>2</a>
+        </li>
+        <li>
+            <a href='#'>3</a>
+        </li>
+        <li>
+            <a href='#'>4</a>
+        </li>
+        <li>
+            <a href='#'>5</a>
+        </li>
+        <li>
+            <a href='#'>&raquo;</a>
+        </li>
+    </ul>
+
+    <link href='./css/jquery-ui-1.12.1.custom.min.css' rel='stylesheet' type='text/css'/>
+    <script src='./js/jquery-ui-1.12.1.custom.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='./pages/home/home.css'/>
+    <script src='./pages/home/home.js'></script>
+</div>

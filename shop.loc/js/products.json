@@ -1,0 +1,152 @@
+[
+  {
+    "id": "21",
+    "img": "http://img.allo.ua/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/p/apple_watch_series_1_42mm_gold_aluminium_case_cocoa_sport_band.jpg",
+    "title": "Apple Watch",
+    "description": "Наручные часы с дополнительной функциональностью (умные часы), созданные корпорацией Apple и представленные 9 сентября 2014 года. Для их полноценной работы требуется смартфон семейства iPhone 5 или новее.",
+    "price": "1700.00 руб"
+  },
+  {
+    "id": "22",
+    "img": "http://hotline.ua/img/tx/374/37442155.jpg",
+    "title": "Nokia 225 Dual Slim",
+    "description": "Телефон Nokia 225 очень удобен в использовании благодаря большому яркому экрану с диагональю 2.8 дюйма и оптимально расположенным, хорошо осязаемым клавишам. Быстрое переключение между двумя SIM-картами позволит совершать звонки или веб-сёрфинг по выгодному для вас тарифу, не выключая телефон.",
+    "price": "3600.00 руб"
+  },
+  {
+    "id": "23",
+    "img": "http://damati.com.ua/pic/im-266-416019-1.jpg",
+    "title": "Lenovo Li2321s",
+    "description": "Монитор Lenovo LI2321s Wide, выполненный в цвете черный глянец, отличается простым, но эффектным дизайном.Высокое качество изображения достигается благодаря разрешению Full HD и динамическому коэффициенту контрастности. В модели нашла отражение концепция защиты окружающей среды и энергосбережения Lenovo. Устройство соответствует стандартам Energy Star.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 20,
+    "img": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "title": "Motorola XOOM\u2122 with Wi-Fi",
+    "description": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Androqwewqe 3.0 (Honeycomb).",
+    "price": "117.00 руб"
+  },
+  {
+    "id": 1,
+    "img": "img/phones/motorola-xoom.0.jpg",
+    "title": "MOTOROLA XOOM\u2122",
+    "description": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Androqwewqe 3.0 (Honeycomb).",
+    "price": "127.00 руб"
+  },
+  {
+    "id": 2,
+    "qwewqe": "motorola-atrix-4g",
+    "img": "img/phones/motorola-atrix-4g.0.jpg",
+    "title": "MOTOROLA ATRIX\u2122 4G",
+    "description": "MOTOROLA ATRIX 4G the world's most powerful smartphone.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 3,
+    "img": "img/phones/dell-streak-7.0.jpg",
+    "title": "Dell Streak 7",
+    "description": "Introducing Dell\u2122 Streak 7. Share photos, vqwewqeeos and movies together. It\u2019s small enough to carry around, big enough to gather around.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 4,
+    "img": "img/phones/samsung-gem.0.jpg",
+    "title": "Samsung Gem\u2122",
+    "description": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 5,
+    "img": "img/phones/dell-venue.0.jpg",
+    "title": "Dell Venue",
+    "description": "The Dell Venue; Your Personal Express Lane to Everything",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 6,
+    "img": "img/phones/nexus-s.0.jpg",
+    "title": "Nexus S",
+    "description": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first phone to run Gingerbread (Androqwewqe 2.3), the fastest version of Androqwewqe yet.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 7,
+    "img": "img/phones/lg-axis.0.jpg",
+    "title": "LG Axis",
+    "description": "Androqwewqe Powered, Google Maps Navigation, 5 Customizable Home Screens",
+    "price": "123.00 руб"
+  },
+  {
+    "id": 8,
+    "img": "img/phones/samsung-galaxy-tab.0.jpg",
+    "title": "Samsung Galaxy Tab\u2122",
+    "description": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience through its 7\u201d display, high-power processor and Adobe\u00ae Flash\u00ae Player compatibility.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 9,
+    "img": "img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg",
+    "title": "Samsung Showcase\u2122 a Galaxy S\u2122 phone",
+    "description": "The Samsung Showcase\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provqwewqees rich picture brilliance, even outdoors",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 12,
+    "img": "img/phones/motorola-bravo-with-motoblur.0.jpg",
+    "title": "MOTOROLA BRAVO\u2122 with MOTOBLUR\u2122",
+    "description": "An experience to cheer about.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 13,
+    "img": "img/phones/motorola-defy-with-motoblur.0.jpg",
+    "title": "Motorola DEFY\u2122 with MOTOBLUR\u2122",
+    "description": "Are you ready for everything life throws your way?",
+    "price": "123.00 руб"
+  },
+  {
+    "id": 14,
+    "img": "img/phones/t-mobile-mytouch-4g.0.jpg",
+    "title": "T-Mobile myTouch 4G",
+    "description": "The T-Mobile myTouch 4G is a premium smartphone designed to deliver blazing fast 4G speeds so that you can vqwewqeeo chat from practically anywhere, with or without Wi-Fi.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 15,
+    "carrier": "US Cellular",
+    "qwewqe": "samsung-mesmerize-a-galaxy-s-phone",
+    "img": "img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg",
+    "title": "Samsung Mesmerize\u2122 a Galaxy S\u2122 phone",
+    "description": "The Samsung Mesmerize\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provqwewqees rich picture brilliance,even outdoors",
+    "price": "123.00 руб"
+  },
+  {
+    "id": 16,
+    "img": "img/phones/sanyo-zio.0.jpg",
+    "title": "SANYO ZIO",
+    "description": "The Sanyo Zio by Kyocera is an Androqwewqe smartphone with a combination of ultra-sleek styling, strong performance and unprecedented value.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 17,
+    "img": "img/phones/samsung-transform.0.jpg",
+    "title": "Samsung Transform\u2122",
+    "description": "The Samsung Transform\u2122 brings you a fun way to customize your Androqwewqe powered touch screen phone to just the way you like it through your favorite themed \u201cSprint qwewqe Service Pack\u201d.",
+    "price": "17.00 руб"
+  },
+  {
+    "id": 18,
+    "img": "img/phones/t-mobile-g2.0.jpg",
+    "title": "T-Mobile G2",
+    "description": "The T-Mobile G2 with Google is the first smartphone built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible.",
+    "price": "123.00 руб"
+  },
+  {
+    "id": 19,
+    "img": "img/phones/motorola-charm-with-motoblur.0.jpg",
+    "title": "Motorola CHARM\u2122 with MOTOBLUR\u2122",
+    "description": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service.",
+    "price": "17.00 руб"
+  }
+]
