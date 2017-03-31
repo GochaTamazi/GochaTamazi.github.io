@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['ngRoute'])
 
 myApp.controller('myController', ['$scope', '$http', '$location', function ($scope, $http, $location) {
-	$http.get("/js/products.json").then(success, error)
+	$http.get("./js/products.json").then(success, error)
 	function error(response) {
 		console.log("Something went wrong")
 		console.log(response.status)
