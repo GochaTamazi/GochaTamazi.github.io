@@ -16,16 +16,16 @@ myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $
 	$locationProvider.hashPrefix('')
 	$routeProvider
 		.when('/login', {
-			templateUrl: '/pages/login/login.html',
+			templateUrl: './pages/login/login.html',
 		})
 		.when('/profile', {
-			templateUrl: '/pages/profile/profile.html',
+			templateUrl: './pages/profile/profile.html',
 		})
 		.when('/', {
-			templateUrl: '/pages/home/home.html',
+			templateUrl: './pages/home/home.html',
 		})
 		.when('/home', {
-			templateUrl: '/pages/home/home.html',
+			templateUrl: './pages/home/home.html',
 		})
 
 }])
