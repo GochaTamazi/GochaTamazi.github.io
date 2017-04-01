@@ -10,4 +10,6 @@ $(document).ready(function () {
 		$('.search-form-close').addClass('search-form-close-hiden')
 		$('.search-form-open-btn').removeClass('search-form-close-hiden')
 	})
+
+
 })

@@ -10,7 +10,12 @@
             <h4>Search form</h4>
             <input type='text' name='Category' id='Category' placeholder='Category' class='search-input form-control input-sm'/>
             <input type='text' name='Title' id='Title' placeholder='Title' class='search-input form-control input-sm'/>
+
             <input type='text' name='Price' id='Price' placeholder='Price' class='search-input form-control input-sm'/>
+
+            <input class='spinner search-form-price ' placeholder='Min Price' name='minPrice' value='' min='1' max='1000000' pattern='^[ 0-9]+$'/>
+            <input class='spinner search-form-price' placeholder='Max Price' name='minPrice' value='' min='1' max='1000000' pattern='^[ 0-9]+$'/>
+
             <input type='text' name='Brand' id='Brand' placeholder='Brand' class='search-input form-control input-sm'/>
             <input type='text' name='Colour' id='Colour' placeholder='Colour' class='search-input form-control input-sm'/>
             <label class='search-form-lable'>Order by:</label>

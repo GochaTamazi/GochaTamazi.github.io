@@ -4,12 +4,20 @@ $(document).ready(function () {
 	function onlyDigit() {
 		var value = $(this).val()
 		value = value.replace(/[^0-9]/g, '')
-		if (value == '' || value <= 0) {
-			value = 1
+
+		var minval = $(this).attr('min')
+		var maxval = $(this).attr('max')
+
+		minval = parseInt(minval)
+		maxval = parseInt(maxval)
+
+		if (value == '' || value < minval) {
+			value = minval
 		}
-		if (value >= 1000) {
-			value = 1000
+		if (value > maxval) {
+			value = maxval
 		}
+
 		$(this).val(value)
 	}
 

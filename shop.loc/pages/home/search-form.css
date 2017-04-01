@@ -89,3 +89,11 @@
 .search-form-close-hiden {
     display: none;
 }
+
+.search-form-price {
+    width: 85px;
+}
+
+input[name='Brand'] {
+    margin-top: 10px;
+}
