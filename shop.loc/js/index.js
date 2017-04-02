@@ -10,9 +10,15 @@ myApp.controller('myController', ['$scope', '$http', '$location', function ($sco
 		$scope.products = response.data
 	}, error)
 
+	$http.get("./js/cart_products.json").then(function (response) {
+		$scope.cart_products = response.data
+	}, error)
+
 	$http.get("./js/addresses.json").then(function (response) {
 		$scope.addresses = response.data
 	}, error)
+
+
 
 
 }])
@@ -20,6 +26,9 @@ myApp.controller('myController', ['$scope', '$http', '$location', function ($sco
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 	$locationProvider.hashPrefix('')
 	$routeProvider
+		.when('/cart', {
+			templateUrl: './pages/cart/cart.html',
+		})
 		.when('/login', {
 			templateUrl: './pages/login/login.html',
 		})

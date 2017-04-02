@@ -1,0 +1,27 @@
+.cart-wraper {
+    width: 1024px;
+    float: none;
+    margin: 0 auto;
+}
+
+.cart-products {
+
+}
+
+.payment-methd {
+    margin-top: 20px;
+
+}
+
+.payment-methd-select {
+    width: 400px;
+}
+
+.cart-create-address-url {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.hiden {
+    display: none !important;
+}

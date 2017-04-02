@@ -1,0 +1,97 @@
+<div class='cart-wraper'>
+
+
+    <div class='payment-methd'>
+        <form class='form-horizontal' method='post' action='' name='form-profile'
+              id='form-profile'>
+            <fieldset>
+                <legend>
+                    <h1>Confirm goods in your Cart</h1>
+                </legend>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Payment Method
+                    </label>
+                    <div class='col-lg-10'>
+                        <select class='form-control payment-methd-select' name='paymentMethod' id='paymentMethod'>
+                            <option value='CARD'>CARD</option>
+                            <option value='CASH'>CASH</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Delivery Method
+                    </label>
+                    <div class='col-lg-10'>
+                        <select class='form-control payment-methd-select' name='deliveryMethod' id='deliveryMethod'>
+                            <option value='STANDART'>STANDART</option>
+                            <option value='NEXT_DAY_DELIVERY'>NEXT_DAY_DELIVERY</option>
+                            <option value='NOMINATED_DAY'>NOMINATED_DAY</option>
+                            <option value='POINT_OF_DELIVERY'>POINT_OF_DELIVERY</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Client AddressId
+                    </label>
+                    <div class='col-lg-10'>
+                        <select class='form-control payment-methd-select' name='clientAddressId' id='clientAddressId'>
+                            <option ng-repeat='a in addresses' value='{{a.id}}'>
+                                {{
+                                a.Country+', '+
+                                a.City+', '+
+                                a.Street+' '+
+                                a.HouseNumber+', '+
+                                a.Apartment
+                                }}
+                            </option>
+                        </select>
+                        <a class='cart-create-address-url hiden' href='#/create_address'>Create new Addresses</a>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <div class='col-lg-10 col-lg-offset-2'>
+                        <button type='submit' class='btn btn-primary'>Submit Order</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class='products cart-products'>
+        <div class='product' ng-repeat='p in cart_products'>
+            <div class='product-wraper-img'>
+                <img class='product-img' src='{{p.img}}'/>
+            </div>
+            <div class='product-title'>
+                {{p.title}}
+            </div>
+            <div class='product-description'>
+                {{p.description}}
+            </div>
+            <div class='product-price'>
+                {{p.price}}
+            </div>
+            <div class='product-quantity'>
+                <input class='spinner quantity-s' value='{{p.quantity}}' min='1' max='1000' pattern='^[ 0-9]+$'/>
+            </div>
+            <div class='product-btn'>
+                <div data='{{p.id}}' class='product-btn-del btn btn-default btn-xs'>Remove</div>
+            </div>
+        </div>
+    </div>
+
+    <link href='./css/jquery-ui-1.12.1.custom.min.css' rel='stylesheet' type='text/css'/>
+    <script src='./js/jquery-ui-1.12.1.custom.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='./pages/home/home.css'/>
+
+    <link rel='stylesheet' type='text/css' href='./pages/cart/cart.css'/>
+    <script src='./pages/cart/cart.js'></script>
+
+</div>
