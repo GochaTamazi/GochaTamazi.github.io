@@ -1,15 +1,20 @@
 var myApp = angular.module('myApp', ['ngRoute'])
 
 myApp.controller('myController', ['$scope', '$http', '$location', function ($scope, $http, $location) {
-	$http.get("./js/products.json").then(success, error)
 	function error(response) {
 		console.log("Something went wrong")
 		console.log(response.status)
 	}
 
-	function success(response) {
+	$http.get("./js/products.json").then(function (response) {
 		$scope.products = response.data
-	}
+	}, error)
+
+	$http.get("./js/addresses.json").then(function (response) {
+		$scope.addresses = response.data
+	}, error)
+
+
 }])
 
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
@@ -18,7 +23,19 @@ myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $
 		.when('/login', {
 			templateUrl: './pages/login/login.html',
 		})
+		.when('/addresses', {
+			templateUrl: './pages/addresses/addresses.html',
+		})
+		.when('/edit_address', {
+			templateUrl: './pages/addresses/edit_address.html',
+		})
+		.when('/create_address', {
+			templateUrl: './pages/addresses/edit_address.html',
+		})
 		.when('/profile', {
+			templateUrl: './pages/profile/profile.html',
+		})
+		.when('/registration', {
 			templateUrl: './pages/profile/profile.html',
 		})
 		.when('/', {

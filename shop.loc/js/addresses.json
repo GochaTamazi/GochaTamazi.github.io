@@ -1,0 +1,42 @@
+[
+  {
+    "id": "123",
+    "num": "1",
+    "Country": "Ukraine",
+    "City": "Kiev",
+    "PostIndex": "123456",
+    "Street": "Mira",
+    "HouseNumber": "10",
+    "Apartment": "45"
+  },
+  {
+    "id": "435",
+    "num": "2",
+    "Country": "Ukraine",
+    "City": "Nikolaev",
+    "PostIndex": "456789",
+    "Street": "Lenina",
+    "HouseNumber": "15",
+    "Apartment": "50"
+  },
+  {
+    "id": "657",
+    "num": "3",
+    "Country": "Ukraine",
+    "City": "Odessa",
+    "PostIndex": "789123",
+    "Street": "Soveskaya",
+    "HouseNumber": "20",
+    "Apartment": "60"
+  },
+  {
+    "id": "967",
+    "num": "4",
+    "Country": "Ukraine",
+    "City": "Lvov",
+    "PostIndex": "159753",
+    "Street": "Benderi",
+    "HouseNumber": "15",
+    "Apartment": "45"
+  }
+]
