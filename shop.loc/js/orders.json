@@ -1,0 +1,38 @@
+[
+  {
+    "OrderId": "98",
+    "ClientAddress": "Ukraine, Kiev, Mira 10, 45",
+    "DeliveryMethod": "STANDART",
+    "PaymentMethod": "CARD",
+    "PaymentStatus": "Ожидает оплаты",
+    "OrderStatusId": "Ожидает оплаты",
+    "DateOfCreation": "03.04.17"
+  },
+  {
+    "OrderId": "87",
+    "ClientAddress": "Ukraine, Nikolaev, Lenina 15, 50",
+    "DeliveryMethod": "NEXT_DAY_DELIVERY",
+    "PaymentMethod": "CASH",
+    "PaymentStatus": "Оплачен",
+    "OrderStatusId": "Ожидает отгрузки",
+    "DateOfCreation": "02.04.17"
+  },
+  {
+    "OrderId": "76",
+    "ClientAddress": "Ukraine, Odessa, Soveskaya 20, 60",
+    "DeliveryMethod": "NOMINATED_DAY",
+    "PaymentMethod": "CARD",
+    "PaymentStatus": "Оплачен",
+    "OrderStatusId": "Отгружен",
+    "DateOfCreation": "01.04.17"
+  },
+  {
+    "OrderId": "65",
+    "ClientAddress": "Ukraine, Lvov, Benderi 15, 45",
+    "DeliveryMethod": "POINT_OF_DELIVERY",
+    "PaymentMethod": "CASH",
+    "PaymentStatus": "Оплачен",
+    "OrderStatusId": "Доставлен",
+    "DateOfCreation": "31.03.17"
+  }
+]

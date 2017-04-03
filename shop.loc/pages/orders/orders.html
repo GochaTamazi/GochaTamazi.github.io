@@ -1,0 +1,37 @@
+<div class='orders-wraper'>
+    <h1>You Orders</h1>
+    <table class='table table-striped table-hover'>
+        <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>Client Address</th>
+                <th>Delivery Method</th>
+                <th>Payment Method</th>
+                <th>Payment Status</th>
+                <th>Order StatusId</th>
+                <th>Date Of Creation</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr ng-repeat='o in orders'>
+                <th>{{o.OrderId}}</th>
+                <th>{{o.ClientAddress}}</th>
+                <th>{{o.DeliveryMethod}}</th>
+                <th>{{o.PaymentMethod}}</th>
+
+                <th ng-if='o.PaymentStatus=="Оплачен"' class='success'>{{o.PaymentStatus}}</th>
+                <th ng-if='o.PaymentStatus=="Ожидает оплаты"' class='danger'>{{o.PaymentStatus}}</th>
+
+                <th ng-if='o.OrderStatusId=="Ожидает оплаты"' class='danger'>{{o.OrderStatusId}}</th>
+                <th ng-if='o.OrderStatusId=="Ожидает отгрузки"' class='warning'>{{o.OrderStatusId}}</th>
+                <th ng-if='o.OrderStatusId=="Отгружен"' class='info'>{{o.OrderStatusId}}</th>
+                <th ng-if='o.OrderStatusId=="Доставлен"' class='success'>{{o.OrderStatusId}}</th>
+
+                <th>{{o.DateOfCreation}}</th>
+            </tr>
+
+        </tbody>
+    </table>
+    <link rel='stylesheet' type='text/css' href='./pages/orders/orders.css'/>
+</div>

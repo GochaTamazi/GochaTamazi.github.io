@@ -18,14 +18,18 @@ myApp.controller('myController', ['$scope', '$http', '$location', function ($sco
 		$scope.addresses = response.data
 	}, error)
 
-
-
+	$http.get("./js/orders.json").then(function (response) {
+		$scope.orders = response.data
+	}, error)
 
 }])
 
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 	$locationProvider.hashPrefix('')
 	$routeProvider
+		.when('/orders', {
+			templateUrl: './pages/orders/orders.html',
+		})
 		.when('/cart', {
 			templateUrl: './pages/cart/cart.html',
 		})
