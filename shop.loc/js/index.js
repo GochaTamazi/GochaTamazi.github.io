@@ -1,3 +1,10 @@
+$(document).ready(function () {
+	setTimeout(function () {
+		$('.loading').hide()
+		$('.loading').remove()
+	}, 500)
+})
+
 var myApp = angular.module('myApp', ['ngRoute'])
 
 myApp.controller('myController', ['$scope', '$http', '$location', function ($scope, $http, $location) {
@@ -21,12 +28,17 @@ myApp.controller('myController', ['$scope', '$http', '$location', function ($sco
 	$http.get("./js/orders.json").then(function (response) {
 		$scope.orders = response.data
 	}, error)
-
 }])
 
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 	$locationProvider.hashPrefix('')
 	$routeProvider
+		.when('/aordershistory', {
+			templateUrl: './pages/aordershistory/aordershistory.html',
+		})
+		.when('/categories', {
+			templateUrl: './pages/categories/categories.html',
+		})
 		.when('/orders', {
 			templateUrl: './pages/orders/orders.html',
 		})
@@ -57,5 +69,4 @@ myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $
 		.when('/home', {
 			templateUrl: './pages/home/home.html',
 		})
-
 }])

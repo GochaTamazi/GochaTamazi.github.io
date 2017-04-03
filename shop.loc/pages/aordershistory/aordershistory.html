@@ -1,0 +1,44 @@
+<div class='aordershistory-wraper'>
+    <h1>Admin Orders History</h1>
+    <table class='table table-striped table-hover'>
+        <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>User</th>
+                <th>Client Address</th>
+                <th>Delivery Method</th>
+                <th>Payment Method</th>
+                <th>Payment Status</th>
+                <th>Order StatusId</th>
+                <th>Date Of Creation</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr ng-repeat='o in orders'>
+                <td>{{o.OrderId}}</td>
+                <td>TestUser@mail.ru</td>
+                <td>{{o.ClientAddress}}</td>
+                <td>{{o.DeliveryMethod}}</td>
+                <td>{{o.PaymentMethod}}</td>
+
+                <td ng-if='o.PaymentStatus=="Оплачен"' class='success'>{{o.PaymentStatus}}</td>
+                <td ng-if='o.PaymentStatus=="Ожидает оплаты"' class='danger'>{{o.PaymentStatus}}</td>
+
+                <td>
+                    <select class='form-control OrderStatusIdSelect' name='OrderStatusId' data='{{o.OrderId}}'>
+                        <option class='color-select-orders selected-danger' value='1'>Ожидает оплаты</option>
+                        <option class='color-select-orders selected-warning' value='2'>Ожидает отгрузки</option>
+                        <option class='color-select-orders selected-info' value='3'>Отгружен</option>
+                        <option class='color-select-orders selected-success' value='4'>Доставлен</option>
+                    </select>
+                </td>
+
+                <td>{{o.DateOfCreation}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <link rel='stylesheet' type='text/css' href='./pages/aordershistory/aordershistory.css'/>
+    <script src='./pages/aordershistory/aordershistory.js'></script>
+</div>

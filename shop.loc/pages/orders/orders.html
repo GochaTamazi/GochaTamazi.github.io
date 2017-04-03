@@ -15,20 +15,20 @@
         <tbody>
 
             <tr ng-repeat='o in orders'>
-                <th>{{o.OrderId}}</th>
-                <th>{{o.ClientAddress}}</th>
-                <th>{{o.DeliveryMethod}}</th>
-                <th>{{o.PaymentMethod}}</th>
+                <td>{{o.OrderId}}</td>
+                <td>{{o.ClientAddress}}</td>
+                <td>{{o.DeliveryMethod}}</td>
+                <td>{{o.PaymentMethod}}</td>
 
-                <th ng-if='o.PaymentStatus=="Оплачен"' class='success'>{{o.PaymentStatus}}</th>
-                <th ng-if='o.PaymentStatus=="Ожидает оплаты"' class='danger'>{{o.PaymentStatus}}</th>
+                <td ng-if='o.PaymentStatus=="Оплачен"' class='success'>{{o.PaymentStatus}}</td>
+                <td ng-if='o.PaymentStatus=="Ожидает оплаты"' class='danger'>{{o.PaymentStatus}}</td>
 
-                <th ng-if='o.OrderStatusId=="Ожидает оплаты"' class='danger'>{{o.OrderStatusId}}</th>
-                <th ng-if='o.OrderStatusId=="Ожидает отгрузки"' class='warning'>{{o.OrderStatusId}}</th>
-                <th ng-if='o.OrderStatusId=="Отгружен"' class='info'>{{o.OrderStatusId}}</th>
-                <th ng-if='o.OrderStatusId=="Доставлен"' class='success'>{{o.OrderStatusId}}</th>
+                <td ng-if='o.OrderStatusId=="Ожидает оплаты"' class='danger'>{{o.OrderStatusId}}</td>
+                <td ng-if='o.OrderStatusId=="Ожидает отгрузки"' class='warning'>{{o.OrderStatusId}}</td>
+                <td ng-if='o.OrderStatusId=="Отгружен"' class='info'>{{o.OrderStatusId}}</td>
+                <td ng-if='o.OrderStatusId=="Доставлен"' class='success'>{{o.OrderStatusId}}</td>
 
-                <th>{{o.DateOfCreation}}</th>
+                <td>{{o.DateOfCreation}}</td>
             </tr>
 
         </tbody>

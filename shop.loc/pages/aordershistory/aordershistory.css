@@ -1,0 +1,27 @@
+.aordershistory-wraper {
+    width: 1024px;
+    float: none;
+    margin: 0 auto;
+}
+
+.color-select-orders {
+    color: rgb(34, 34, 34);
+}
+
+.selected-danger {
+    background: #F2DEDE;
+}
+
+.selected-warning {
+    background: #FCF8E3;
+}
+
+.selected-info {
+
+    background: #D9EDF7;
+}
+
+.selected-success {
+
+    background: #DFF0D8;
+}

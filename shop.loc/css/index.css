@@ -1,0 +1,17 @@
+.loading {
+    background-color: white;
+    background-image: url('images/loading_icon.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    z-index: 999;
+}
+
+.hiden {
+    display: none !important;
+}
