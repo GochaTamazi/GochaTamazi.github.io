@@ -1,0 +1,18 @@
+.categories-wraper {
+    width: 1024px;
+    float: none;
+    margin: 0 auto;
+}
+
+.table-categories {
+    border-bottom: 1px solid lightgray;
+}
+
+.wraper-edit_categories {
+    float: none;
+    margin: 0 auto;
+}
+
+.edit_categories-btn-ok {
+    float: right;
+}

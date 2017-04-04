@@ -1,0 +1,30 @@
+[
+  {
+    "CategoryId": "15",
+    "Name": "Clothes"
+  },
+  {
+    "CategoryId": "11",
+    "Name": "Tools"
+  },
+  {
+    "CategoryId": "10",
+    "Name": "Furniture"
+  },
+  {
+    "CategoryId": "6",
+    "Name": "Equipment"
+  },
+  {
+    "CategoryId": "3",
+    "Name": "Electronics"
+  },
+  {
+    "CategoryId": "2",
+    "Name": "Alcohol"
+  },
+  {
+    "CategoryId": "1",
+    "Name": "Food"
+  }
+]

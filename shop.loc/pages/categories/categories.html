@@ -1,4 +1,32 @@
 <div class='categories-wraper'>
-    <h1>categories</h1>
+    <div class='wraper-table-categories'>
+        <h1>Categories</h1>
+        <table class='table table-striped table-hover table-categories'>
+            <thead class='header-categories'>
+                <tr>
+                    <th>CategoryId</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody class='categories'>
+
+                <tr class='categorie' ng-repeat='c in categories' ng-class='$odd ? "active" : "info"'>
+                    <td class='CategoryId'>{{c.CategoryId}}</td>
+                    <td class='Name'>{{c.Name}}</td>
+                    <td class='btn-wraper' data='{{c.CategoryId}}'>
+                        <a href='#/delete_categories?id={{c.CategoryId}}' class='btn btn-warning btn-xs categories-btn categories-btn-del'>
+                            Delete
+                        </a>
+                        <a href='#/edit_categories?id={{c.CategoryId}}' class='btn btn-primary btn-xs categories-btn categories-btn-edt'>
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <a href='#/create_categories'>Create new Category</a>
+        <link rel='stylesheet' type='text/css' href='./pages/categories/categories.css'/>
+    </div>
 </div>
 

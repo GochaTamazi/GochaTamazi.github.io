@@ -1,0 +1,141 @@
+<div class='col-lg-6 col-centered add_product-wraper'>
+    <div class='well bs-component'>
+        <form class='form-horizontal' method='post' action='' name='form-add_product'
+              id='form-add_product'>
+            <fieldset>
+                <legend>
+                    Add Product
+                </legend>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Title
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Title'
+                               type='text'
+                               required=""
+                               name='Title'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Price
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Price'
+                               type='text'
+                               required=""
+                               name='Price'/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Category</label>
+                    <div class="col-lg-10">
+                        <select class="form-control" id="select" name="Category">
+
+                            <option ng-repeat='c in categories' value='{{c.CategoryId}}'>{{c.Name}}</option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Brand
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Brand'
+                               type='text'
+                               name='Brand'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Colour
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Colour'
+                               type='text'
+                               name='Colour'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Power
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Power'
+                               type='text'
+                               name='Power'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Weight
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Weight'
+                               type='text'
+                               name='Weight'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Size
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Size'
+                               type='text'
+                               name='Size'/>
+                    </div>
+                </div>
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Count
+                    </label>
+                    <div class='col-lg-10'>
+                        <input class='form-control input-sm'
+                               placeholder='Count'
+                               type='text'
+                               name='Count'/>
+                    </div>
+                </div>
+
+
+                <div class='form-group'>
+                    <label class='col-lg-2 control-label'>
+                        Select img
+                    </label>
+                    <div class='col-lg-10'>
+                        <input type="file" class="btn-file btn btn-default btn-sm"/>
+                    </div>
+                </div>
+
+
+                <div class='form-group'>
+                    <div class='col-lg-10 col-lg-offset-2'>
+                        <button type='submit' class='btn btn-primary btn-sm add_product-btn-ok'>Submit</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <link rel='stylesheet' type='text/css' href='./pages/add_product/add_product.css'/>
+</div>
