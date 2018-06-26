@@ -1,4 +1,3 @@
-# KnJbMfLAgdkwZL.github.io
 Some  pages for a simple portfolio and demo skills
 
 HTML5, JS: https://knjbmflagdkwzl.github.io/Tetris_JS_Canvas/
