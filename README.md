@@ -7,3 +7,5 @@ AngularJS, and my Bootstrap design: https://knjbmflagdkwzl.github.io/shop.loc/#/
 Simple layout HTML: https://knjbmflagdkwzl.github.io/first/
 
 Simple layout HTML: https://knjbmflagdkwzl.github.io/second/
+
+[текст ссылки][a]
