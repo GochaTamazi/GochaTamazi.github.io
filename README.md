@@ -1,29 +1,13 @@
 Some  pages for a simple portfolio and demo skills
 
-HTML5, JS: (https://knjbmflagdkwzl.github.io/Tetris_JS_Canvas/)
+HTML5, JS: [Tetris_JS_Canvas](https://knjbmflagdkwzl.github.io/Tetris_JS_Canvas/)
+[Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/Tetris_JS_Canvas)
 
-AngularJS, and my Bootstrap design: https://knjbmflagdkwzl.github.io/shop.loc/#/
+AngularJS, and my Bootstrap design: [Shop](https://knjbmflagdkwzl.github.io/shop.loc/#/)
+[Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/shop.loc)
 
-Simple layout HTML: https://knjbmflagdkwzl.github.io/first/
+Simple layout HTML: [first](https://knjbmflagdkwzl.github.io/first/)
+[Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/shop.loc)
 
-Simple layout HTML: https://knjbmflagdkwzl.github.io/second/
-
-
-
-[Обычная ссылка в строке](https://www.google.com)
-
-[Обычная ссылка с title](https://www.google.com "Сайт Google")
-
-[Ссылка со сноской][Произвольный регистронезависимый текст]
-
-[Относительная ссылка на документ](../blob/master/LICENSE)
-
-[Для ссылок со сноской можно использовать цифры][1]
-
-Или можно просто вставить ссылку в квадратные скобки [текст ссылки]
-
-Произвольный текст, после которого можно привести ссылки.
-
-[произвольный регистронезависимый текст]: https://www.mozilla.org
-[1]: http://slashdot.org
-[текст ссылки]: http://www.reddit.com
+Simple layout HTML: [second](https://knjbmflagdkwzl.github.io/second/)
+[Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/shop.loc)
