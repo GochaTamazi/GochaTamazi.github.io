@@ -12,5 +12,9 @@ Simple layout HTML: [first](https://knjbmflagdkwzl.github.io/first/)
 Simple layout HTML: [second](https://knjbmflagdkwzl.github.io/second/)  
 [Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/shop.loc)
 
+HTML5, JS, PixiJS: [Connect_the_Dots](https://knjbmflagdkwzl.github.io/Connect_the_Dots/)  
+[Source code](https://github.com/KnJbMfLAgdkwZL/KnJbMfLAgdkwZL.github.io/tree/master/Connect_the_Dots)
+
+
 
 
