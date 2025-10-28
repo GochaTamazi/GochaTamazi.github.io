@@ -16,3 +16,5 @@ Simple layout HTML: [second](https://GochaTamazi.github.io/second/)
 HTML5, JS, PixiJS: [Connect_the_Dots](https://GochaTamazi.github.io/Connect_the_Dots/)  
 [Source code](https://github.com/GochaTamazi/GochaTamazi.github.io/tree/master/Connect_the_Dots)
 
+Resume: [Vitali_Platonov_Junior_FullStack_Back_End_Developer.pdf](https://gochatamazi.github.io/tmp/Vitali_Platonov_Junior_FullStack_Back_End_Developer.pdf)
+
